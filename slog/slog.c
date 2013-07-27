@@ -105,7 +105,7 @@ void SLOG_SetLevel(SLOGLevel console, SLOGLevel file)
 
 
 /** Get level name for including into the log. */
-const char* getLevelName(SLOGLevel level)
+static const char* getLevelName(SLOGLevel level)
 {
   switch(level)
   {
